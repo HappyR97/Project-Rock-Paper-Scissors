@@ -14,16 +14,7 @@ function getComputerChoice() {
 getComputerChoice();
 
 const computerSelection = getComputerChoice();
-console.log(computerSelection);
-console.log(typeof computerSelection);
-
-// 2) Get player's choice using a prompt
-
 const playerSelection = prompt("Rock, Paper or Scissors?").toLowerCase();
-console.log(playerSelection);
-console.log(typeof playerSelection);
-
-// 3) Make a function that plays 1 round (if else statements I guess?)
 
 const playRound = function (playerSelection, computerSelection) {
   if (playerSelection === "rock" && computerSelection === "paper") {
@@ -45,7 +36,4 @@ const playRound = function (playerSelection, computerSelection) {
   }
 };
 
-playRound(playerSelection, computerSelection);
-
 console.log(playRound(playerSelection, computerSelection));
-// 4)
