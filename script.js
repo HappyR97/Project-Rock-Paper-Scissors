@@ -54,4 +54,4 @@ const game = function () {
   }
 };
 
-game();
+console.log(game());
